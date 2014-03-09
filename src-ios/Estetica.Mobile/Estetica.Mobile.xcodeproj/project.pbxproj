@@ -21,9 +21,9 @@
 		6CC2DB8718CCF9A900456E26 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC2DB6B18CCF9A900456E26 /* CoreData.framework */; };
 		6CC2DB8F18CCF9A900456E26 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6CC2DB8D18CCF9A900456E26 /* InfoPlist.strings */; };
 		6CC2DB9118CCF9A900456E26 /* Estetica_MobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC2DB9018CCF9A900456E26 /* Estetica_MobileTests.m */; };
-		6CC2DB9C18CCFA4E00456E26 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CC2DB9B18CCFA4E00456E26 /* Storyboard.storyboard */; };
 		6CC2DBA318CCFAAE00456E26 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC2DBA218CCFAAE00456E26 /* CFNetwork.framework */; };
 		6CC2DBA518CCFAB600456E26 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC2DBA418CCFAB600456E26 /* CoreLocation.framework */; };
+		6CC2DBA618CCFB8700456E26 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CC2DBA818CCFB8700456E26 /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,9 +54,9 @@
 		6CC2DB8C18CCF9A900456E26 /* Estetica.MobileTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Estetica.MobileTests-Info.plist"; sourceTree = "<group>"; };
 		6CC2DB8E18CCF9A900456E26 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6CC2DB9018CCF9A900456E26 /* Estetica_MobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Estetica_MobileTests.m; sourceTree = "<group>"; };
-		6CC2DB9B18CCFA4E00456E26 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		6CC2DBA218CCFAAE00456E26 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		6CC2DBA418CCFAB600456E26 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6CC2DBA718CCFB8700456E26 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,7 +168,7 @@
 		6CC2DB9A18CCFA3D00456E26 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				6CC2DB9B18CCFA4E00456E26 /* Storyboard.storyboard */,
+				6CC2DBA818CCFB8700456E26 /* Storyboard.storyboard */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -289,7 +289,7 @@
 			files = (
 				6CC2DB7218CCF9A900456E26 /* InfoPlist.strings in Resources */,
 				6CC2DB7D18CCF9A900456E26 /* Images.xcassets in Resources */,
-				6CC2DB9C18CCFA4E00456E26 /* Storyboard.storyboard in Resources */,
+				6CC2DBA618CCFB8700456E26 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +346,14 @@
 				6CC2DB8E18CCF9A900456E26 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6CC2DBA818CCFB8700456E26 /* Storyboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CC2DBA718CCFB8700456E26 /* en */,
+			);
+			name = Storyboard.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
