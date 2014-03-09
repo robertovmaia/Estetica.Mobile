@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CC2DB6618CCF9A900456E26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC2DB6518CCF9A900456E26 /* Foundation.framework */; };
+		6CC2DB6818CCF9A900456E26 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC2DB6718CCF9A900456E26 /* CoreGraphics.framework */; };
+		6CC2DB6A18CCF9A900456E26 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC2DB6918CCF9A900456E26 /* UIKit.framework */; };
+		6CC2DB6C18CCF9A900456E26 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC2DB6B18CCF9A900456E26 /* CoreData.framework */; };
+		6CC2DB7218CCF9A900456E26 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6CC2DB7018CCF9A900456E26 /* InfoPlist.strings */; };
+		6CC2DB7418CCF9A900456E26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC2DB7318CCF9A900456E26 /* main.m */; };
+		6CC2DB7818CCF9A900456E26 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC2DB7718CCF9A900456E26 /* AppDelegate.m */; };
+		6CC2DB7B18CCF9A900456E26 /* Estetica_Mobile.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6CC2DB7918CCF9A900456E26 /* Estetica_Mobile.xcdatamodeld */; };
+		6CC2DB7D18CCF9A900456E26 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CC2DB7C18CCF9A900456E26 /* Images.xcassets */; };
+		6CC2DB8418CCF9A900456E26 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC2DB8318CCF9A900456E26 /* XCTest.framework */; };
+		6CC2DB8518CCF9A900456E26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC2DB6518CCF9A900456E26 /* Foundation.framework */; };
+		6CC2DB8618CCF9A900456E26 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC2DB6918CCF9A900456E26 /* UIKit.framework */; };
+		6CC2DB8718CCF9A900456E26 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC2DB6B18CCF9A900456E26 /* CoreData.framework */; };
+		6CC2DB8F18CCF9A900456E26 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6CC2DB8D18CCF9A900456E26 /* InfoPlist.strings */; };
+		6CC2DB9118CCF9A900456E26 /* Estetica_MobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC2DB9018CCF9A900456E26 /* Estetica_MobileTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6CC2DB8818CCF9A900456E26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CC2DB5A18CCF9A800456E26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CC2DB6118CCF9A900456E26;
+			remoteInfo = Estetica.Mobile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6CC2DB6218CCF9A900456E26 /* Estetica.Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Estetica.Mobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CC2DB6518CCF9A900456E26 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6CC2DB6718CCF9A900456E26 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6CC2DB6918CCF9A900456E26 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6CC2DB6B18CCF9A900456E26 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6CC2DB6F18CCF9A900456E26 /* Estetica.Mobile-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Estetica.Mobile-Info.plist"; sourceTree = "<group>"; };
+		6CC2DB7118CCF9A900456E26 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6CC2DB7318CCF9A900456E26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6CC2DB7518CCF9A900456E26 /* Estetica.Mobile-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Estetica.Mobile-Prefix.pch"; sourceTree = "<group>"; };
+		6CC2DB7618CCF9A900456E26 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6CC2DB7718CCF9A900456E26 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6CC2DB7A18CCF9A900456E26 /* Estetica_Mobile.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Estetica_Mobile.xcdatamodel; sourceTree = "<group>"; };
+		6CC2DB7C18CCF9A900456E26 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6CC2DB8218CCF9A900456E26 /* Estetica.MobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Estetica.MobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CC2DB8318CCF9A900456E26 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6CC2DB8C18CCF9A900456E26 /* Estetica.MobileTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Estetica.MobileTests-Info.plist"; sourceTree = "<group>"; };
+		6CC2DB8E18CCF9A900456E26 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6CC2DB9018CCF9A900456E26 /* Estetica_MobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Estetica_MobileTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CC2DB5F18CCF9A900456E26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CC2DB6818CCF9A900456E26 /* CoreGraphics.framework in Frameworks */,
+				6CC2DB6C18CCF9A900456E26 /* CoreData.framework in Frameworks */,
+				6CC2DB6A18CCF9A900456E26 /* UIKit.framework in Frameworks */,
+				6CC2DB6618CCF9A900456E26 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CC2DB7F18CCF9A900456E26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CC2DB8418CCF9A900456E26 /* XCTest.framework in Frameworks */,
+				6CC2DB8718CCF9A900456E26 /* CoreData.framework in Frameworks */,
+				6CC2DB8618CCF9A900456E26 /* UIKit.framework in Frameworks */,
+				6CC2DB8518CCF9A900456E26 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CC2DB5918CCF9A800456E26 = {
+			isa = PBXGroup;
+			children = (
+				6CC2DB6D18CCF9A900456E26 /* Estetica.Mobile */,
+				6CC2DB8A18CCF9A900456E26 /* Estetica.MobileTests */,
+				6CC2DB6418CCF9A900456E26 /* Frameworks */,
+				6CC2DB6318CCF9A900456E26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CC2DB6318CCF9A900456E26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CC2DB6218CCF9A900456E26 /* Estetica.Mobile.app */,
+				6CC2DB8218CCF9A900456E26 /* Estetica.MobileTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CC2DB6418CCF9A900456E26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CC2DB6518CCF9A900456E26 /* Foundation.framework */,
+				6CC2DB6718CCF9A900456E26 /* CoreGraphics.framework */,
+				6CC2DB6918CCF9A900456E26 /* UIKit.framework */,
+				6CC2DB6B18CCF9A900456E26 /* CoreData.framework */,
+				6CC2DB8318CCF9A900456E26 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6CC2DB6D18CCF9A900456E26 /* Estetica.Mobile */ = {
+			isa = PBXGroup;
+			children = (
+				6CC2DB7618CCF9A900456E26 /* AppDelegate.h */,
+				6CC2DB7718CCF9A900456E26 /* AppDelegate.m */,
+				6CC2DB7C18CCF9A900456E26 /* Images.xcassets */,
+				6CC2DB7918CCF9A900456E26 /* Estetica_Mobile.xcdatamodeld */,
+				6CC2DB6E18CCF9A900456E26 /* Supporting Files */,
+			);
+			path = Estetica.Mobile;
+			sourceTree = "<group>";
+		};
+		6CC2DB6E18CCF9A900456E26 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CC2DB6F18CCF9A900456E26 /* Estetica.Mobile-Info.plist */,
+				6CC2DB7018CCF9A900456E26 /* InfoPlist.strings */,
+				6CC2DB7318CCF9A900456E26 /* main.m */,
+				6CC2DB7518CCF9A900456E26 /* Estetica.Mobile-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6CC2DB8A18CCF9A900456E26 /* Estetica.MobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				6CC2DB9018CCF9A900456E26 /* Estetica_MobileTests.m */,
+				6CC2DB8B18CCF9A900456E26 /* Supporting Files */,
+			);
+			path = Estetica.MobileTests;
+			sourceTree = "<group>";
+		};
+		6CC2DB8B18CCF9A900456E26 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CC2DB8C18CCF9A900456E26 /* Estetica.MobileTests-Info.plist */,
+				6CC2DB8D18CCF9A900456E26 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CC2DB6118CCF9A900456E26 /* Estetica.Mobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CC2DB9418CCF9A900456E26 /* Build configuration list for PBXNativeTarget "Estetica.Mobile" */;
+			buildPhases = (
+				6CC2DB5E18CCF9A900456E26 /* Sources */,
+				6CC2DB5F18CCF9A900456E26 /* Frameworks */,
+				6CC2DB6018CCF9A900456E26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Estetica.Mobile;
+			productName = Estetica.Mobile;
+			productReference = 6CC2DB6218CCF9A900456E26 /* Estetica.Mobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6CC2DB8118CCF9A900456E26 /* Estetica.MobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CC2DB9718CCF9A900456E26 /* Build configuration list for PBXNativeTarget "Estetica.MobileTests" */;
+			buildPhases = (
+				6CC2DB7E18CCF9A900456E26 /* Sources */,
+				6CC2DB7F18CCF9A900456E26 /* Frameworks */,
+				6CC2DB8018CCF9A900456E26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CC2DB8918CCF9A900456E26 /* PBXTargetDependency */,
+			);
+			name = Estetica.MobileTests;
+			productName = Estetica.MobileTests;
+			productReference = 6CC2DB8218CCF9A900456E26 /* Estetica.MobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CC2DB5A18CCF9A800456E26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Fernando Delucca";
+				TargetAttributes = {
+					6CC2DB8118CCF9A900456E26 = {
+						TestTargetID = 6CC2DB6118CCF9A900456E26;
+					};
+				};
+			};
+			buildConfigurationList = 6CC2DB5D18CCF9A800456E26 /* Build configuration list for PBXProject "Estetica.Mobile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6CC2DB5918CCF9A800456E26;
+			productRefGroup = 6CC2DB6318CCF9A900456E26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CC2DB6118CCF9A900456E26 /* Estetica.Mobile */,
+				6CC2DB8118CCF9A900456E26 /* Estetica.MobileTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CC2DB6018CCF9A900456E26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CC2DB7218CCF9A900456E26 /* InfoPlist.strings in Resources */,
+				6CC2DB7D18CCF9A900456E26 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CC2DB8018CCF9A900456E26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CC2DB8F18CCF9A900456E26 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CC2DB5E18CCF9A900456E26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CC2DB7818CCF9A900456E26 /* AppDelegate.m in Sources */,
+				6CC2DB7B18CCF9A900456E26 /* Estetica_Mobile.xcdatamodeld in Sources */,
+				6CC2DB7418CCF9A900456E26 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CC2DB7E18CCF9A900456E26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CC2DB9118CCF9A900456E26 /* Estetica_MobileTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6CC2DB8918CCF9A900456E26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CC2DB6118CCF9A900456E26 /* Estetica.Mobile */;
+			targetProxy = 6CC2DB8818CCF9A900456E26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6CC2DB7018CCF9A900456E26 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CC2DB7118CCF9A900456E26 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6CC2DB8D18CCF9A900456E26 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CC2DB8E18CCF9A900456E26 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CC2DB9218CCF9A900456E26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6CC2DB9318CCF9A900456E26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CC2DB9518CCF9A900456E26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Estetica.Mobile/Estetica.Mobile-Prefix.pch";
+				INFOPLIST_FILE = "Estetica.Mobile/Estetica.Mobile-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6CC2DB9618CCF9A900456E26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Estetica.Mobile/Estetica.Mobile-Prefix.pch";
+				INFOPLIST_FILE = "Estetica.Mobile/Estetica.Mobile-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6CC2DB9818CCF9A900456E26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Estetica.Mobile.app/Estetica.Mobile";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Estetica.Mobile/Estetica.Mobile-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Estetica.MobileTests/Estetica.MobileTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6CC2DB9918CCF9A900456E26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Estetica.Mobile.app/Estetica.Mobile";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Estetica.Mobile/Estetica.Mobile-Prefix.pch";
+				INFOPLIST_FILE = "Estetica.MobileTests/Estetica.MobileTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CC2DB5D18CCF9A800456E26 /* Build configuration list for PBXProject "Estetica.Mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CC2DB9218CCF9A900456E26 /* Debug */,
+				6CC2DB9318CCF9A900456E26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CC2DB9418CCF9A900456E26 /* Build configuration list for PBXNativeTarget "Estetica.Mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CC2DB9518CCF9A900456E26 /* Debug */,
+				6CC2DB9618CCF9A900456E26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6CC2DB9718CCF9A900456E26 /* Build configuration list for PBXNativeTarget "Estetica.MobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CC2DB9818CCF9A900456E26 /* Debug */,
+				6CC2DB9918CCF9A900456E26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6CC2DB7918CCF9A900456E26 /* Estetica_Mobile.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6CC2DB7A18CCF9A900456E26 /* Estetica_Mobile.xcdatamodel */,
+			);
+			currentVersion = 6CC2DB7A18CCF9A900456E26 /* Estetica_Mobile.xcdatamodel */;
+			path = Estetica_Mobile.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6CC2DB5A18CCF9A800456E26 /* Project object */;
+}
